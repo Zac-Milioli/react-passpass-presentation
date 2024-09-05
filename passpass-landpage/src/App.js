@@ -35,7 +35,7 @@ function App() {
         </div>
         <br />
         <br />
-        <div className='right-align'>
+        <div className='center-align'>
           <h2>Poupe seu tempo digitando longas senhas ⌨</h2>
           <p>
             Simplesmente copie e cole os resultados gerados pela aplicação 😄
