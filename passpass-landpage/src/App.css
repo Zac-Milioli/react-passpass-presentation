@@ -1,15 +1,63 @@
 /* src/App.css */
 .App {
-  text-align: center;
+  text-align: justify;
+  background: radial-gradient(circle at -20% -10%, #EBF5F8, #1C2438 25%, transparent 50%), 
+              radial-gradient(circle at 120% 70%, #EBF5F8, #1C2438 25%, transparent 40%);
+  background-color: #1C2438; /* Fallback para navegadores antigos */
+  background-blend-mode: screen;
+  min-height: 100vh;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #EBF5F8;
+  text-align: center;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Espaço entre o título e o ícone */
+  margin-bottom: 20px; /* Margem inferior no título */
+}
+
+.title-container h1 {
+  margin: 30px;
+}
+
+.common-text{
+  color: #EBF5F8;
+  margin: 0 10%;
+}
+
+.hyperlink{
+  color: #68dafd;
+}
+
+.left-align{
+  text-align: left;
+  background-color: #2C3A47;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.right-align{
+  text-align: right;
+  background-color: #2C3A47;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(160deg, #EBF5F8 -150%, #1C2438 50%);
+  color: #EBF5F8;
+  height: 100px;
 }
